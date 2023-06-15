@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/mica/Downloads/CLion-2023.1.3/clion-2023.1.3/bin/ninja/linux/x64/ninja -G Ninja -S /home/mica/Desktop/CLionProjects/word-runner-core -B /home/mica/Desktop/CLionProjects/word-runner-core/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mica/Desktop/CLionProjects/word-runner-core/cmake-build-debug

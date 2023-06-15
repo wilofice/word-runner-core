@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.21)
+project(word_runner_core)
+set(CMAKE_CXX_STANDARD 17)
+FIND_PACKAGE(OpenCV REQUIRED)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable(word_runner_core main.cpp)
+target_link_libraries( word_runner_core ${OpenCV_LIBS} )
